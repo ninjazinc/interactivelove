@@ -86,3 +86,12 @@ function init() {
 }
 
 window.addEventListener('DOMContentLoaded', init)
+
+document.addEventListener('DOMContentLoaded', () => {
+  const letterContainer = document.querySelector('.letter-container');
+
+  letterContainer.addEventListener('click', () => {
+    letterContainer.classList.toggle('opened');
+  });
+});
+

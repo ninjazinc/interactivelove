@@ -271,22 +271,6 @@ svg {
   width: 100%;
 }
 
-polygon.eyes {
-  fill: rgb(19, 16, 16);
-}
-
-polygon.tail {
-  fill: rgb(19, 16, 16);
-}
-
-polygon.cat_head {
-  fill: rgb(215, 158, 104);
-}
-
-polygon,
-path {
-  fill: rgb(215, 158, 104);
-}
 
 .sign {
   position: absolute;
@@ -468,6 +452,23 @@ a:hover {
 			width: 250px;
 		}
 	}
+
+polygon.eyes {
+  fill: rgb(19, 16, 16);
+}
+
+polygon.tail {
+  fill: rgb(19, 16, 16);
+}
+
+polygon.cat_head {
+  fill: rgb(215, 158, 104);
+}
+
+polygon,
+path {
+  fill: rgb(215, 158, 104);
+}
 
 .hearts {
   position:fixed;
